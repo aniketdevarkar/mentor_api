@@ -76,7 +76,7 @@ app.post("/createStudent", async (req, res) => {
   }
 });
 
-app.listen(8080, () => console.log("app is running on 8080"));
+app.listen(port, () => console.log("app is running on 8080"));
 
 // //assign students to mentor
 
