@@ -5,7 +5,7 @@ const mongodb = require("mongodb");
 
 const mongoClient = mongodb.MongoClient;
 // const dbUrl = "mongodb://127.0.0.1:27017";
-//7a6yOjjMXcxWCRBB
+
 const dbUrl = process.env.DB_URL || "mongodb://127.0.0.1:27017";
 const port = process.env.PORT || 8080;
 let globalIdCount = 1;
